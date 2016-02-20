@@ -5,4 +5,4 @@
 /opt/setupgit.sh
 
 # start sshd
-/usr/sbin/sshd -D
+exec /usr/sbin/sshd -D
