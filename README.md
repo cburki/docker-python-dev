@@ -98,4 +98,4 @@ stored.
 
 Note that any other synchronization technology like dropbox, bittorrent sync, etc
 can be used to synchronize your project files. Just embed your synchronization
-tools in another container and attach the data volume container.
+tools in another container and attach the data volume container to it.
