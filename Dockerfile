@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     apt-get autoremove -y && \
     apt-get clean
 RUN pip install --upgrade \
-    fake8
+    flake8
 
 # Configure locales and timezone
 RUN locale-gen en_US.UTF-8 en_GB.UTF-8 fr_CH.UTF-8 && \
